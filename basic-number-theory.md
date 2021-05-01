@@ -3,7 +3,7 @@ title: 基本数论
 mathjax: true
 index_img: https://cdn.jsdelivr.net/gh/protons-z/cdn@1.4/2233/83110343_p9.jpg
 banner_img: https://cdn.jsdelivr.net/gh/protons-z/cdn@1.4/2233/83110343_p9.jpg
-tags: [数论,miller-rabin,pollard-rho]
+tags: [数论,miller-rabin,pollard-rho,分解质因数]
 categories: 数学
 ---
 
