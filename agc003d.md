@@ -3,7 +3,7 @@ title: anticube
 mathjax: true
 index_img: https://cdn.jsdelivr.net/gh/protons-z/cdn@1.9/2233/a1.jpg
 banner_img: https://cdn.jsdelivr.net/gh/protons-z/cdn@1.9/2233/a1.jpg
-tags: [数论,分解质因数]
+tags: [数论,分解质因数,idea题]
 categories: 数学
 ---
 
@@ -44,6 +44,12 @@ $A=\prod p_i^{a_i\bmod 3}$。
 剩下的形式若不是$1$ 只可能为  $p,pq,p^2(p,q\in prime)$ 三种形式（想一下二次二项式可能性只有这仨）
 
 只用判断一下剩下的是不是完全平方数即可。
+
+### 复杂度分析
+
+除去平方因子+用 $map$ 枚举 $A$ 找 $B$。
+
+$\mathcal{O(n\frac{\sqrt[3]{Max}}{\ln \sqrt[3]{Max}}+n\frac{\sqrt[3]{Max}}{\ln \sqrt[3]{Max}}+n\log n)}$
 
 参考代码
 
